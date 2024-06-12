@@ -1,0 +1,55 @@
+create database pomarpro ;
+use pomarpro;
+ create table tb_usuario(
+ id int primary key unique not null auto_increment ,
+ 
+ );
+create table tb_materiais(
+ id int primary key unique not null auto_increment ,
+
+ );
+
+ create table tb_pomar(
+ id int primary key unique not null auto_increment ,
+
+ );
+ create table tb_arvore(
+ id int primary key unique not null auto_increment ,
+
+ );
+create table tb_produtos(
+
+);
+create table tb_venda(
+
+);
+create table tb_movimetacao(
+
+);
+create table tb_ordem_compra(
+
+);
+create table tb_tipo(
+
+);
+create table tb_situacao(
+
+);
+create table tb_colheita(
+
+);
+create table tb_vendaitens(
+
+);
+create table tb_movitens(
+
+);
+create table tb_ordemitens(
+
+);
+create table tb_localarvore(
+
+);
+
+
+
