@@ -1,18 +1,29 @@
-menu html
 
     <div class="sidebar">
+        <img src="/assets/img/gaxo.png" class="topo">
         <h1>Pomar Pró</h1>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Pomares</a></li>
-            <li><a href="#">Pedidos</a></li>
-            <li><a href="#">Conta</a></li>
-            <li><a href="#">Ajuda</a></li>
-            <li><a href="#">Contatos</a></li>
-        </ul>
-        <img src="/assets/img/gaxo.png" >
+        <nav>
+            <details>
+                <summary>Usuário</summary>
+                <a href="#add-user">Adicionar Usuário</a>
+                <a href="#edit-user">Editar Usuário</a>
+                <a href="#delete-user">Deletar Usuário</a>
+            </details>
+            <details>
+                <summary>Material</summary>
+                <a href="#add-material">Adicionar Material</a>
+                <a href="#edit-material">Editar Material</a>
+                <a href="#delete-material">Deletar Material</a>
+            </details>
+            <details>
+                <summary>Produto</summary>
+                <a href="#add-product">Adicionar Produto</a>
+                <a href="#edit-product">Editar Produto</a>
+                <a href="#delete-product">Deletar Produto</a>
+            </details>
+        </nav>
+        
+        <img src="/assets/img/add.jpeg" class="baixo">
     </div>
-    <div class="content">
-        <!-- Conteúdo da página aqui -->
-    </div>
+    
 
