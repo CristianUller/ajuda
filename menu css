@@ -7,13 +7,16 @@ body {
 
 .sidebar {
     background-color: #f9e6b2;
-    width: 250px;
+    width: 270px;
     height: 100vh;
     padding: 20px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     border: 2px solid #f0c080;
     border-radius: 10px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .sidebar h1 {
@@ -28,12 +31,14 @@ body {
     padding: 0;
 }
 
-.sidebar li {
+.sidebar details {
     margin-bottom: 10px;
     font-size: 34px;
     background-color: goldenrod;
     border:3px #333 solid;
-    border-radius: 50px;
+    
+    display: flex;
+    flex-direction: column;
     
     
 }
@@ -47,13 +52,27 @@ body {
     text-shadow:0 0 0.1em rgba(0, 0, 0, 0.5);
     font-style: italic;
     font-family: 'Franklin Gothic Medium';
+    font-size: 1.6vw;
 }
 
 .sidebar a:hover {
-    color: #333;
+   color:rgba(240, 219, 32, 0.849) ;
+    
+    
+    transition-duration: 1s;
+    cursor: help;
 }
 
-.sidebar img {
+.sidebar details:hover {
+    background-color:rgba(194, 91, 27, 0.849) ;
+     
+     
+     transition-duration: 1s;
+     cursor: help;
+ }
+ 
+
+.topo{
     position: absolute;
     top: -30px;
     left: 50%;
@@ -62,3 +81,29 @@ body {
     height: 30%;
 
 }
+.baixo{
+    margin: 0px;
+    margin-left: -22px;
+    height: 20%;
+    margin-bottom: -23px;
+    width: 117.6%;
+}
+button{
+    margin-bottom: 10px;
+    font-size: 34px;
+    background-color: goldenrod;
+    border:3px #333 solid;
+}
+.sidebar button:hover {
+    color:rgba(240, 219, 32, 0.849) ;
+    background-color:rgba(194, 91, 27, 0.849) ;
+     
+     transition-duration: 1s;
+     cursor: help;
+ }
+ .sair{
+    margin-left: -8px;
+    font-family: 'Franklin Gothic Medium';
+    text-shadow:0 0 0.1em rgba(0, 0, 0, 0.5);
+    font-style: italic;
+ }
