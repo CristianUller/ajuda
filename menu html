@@ -1,0 +1,18 @@
+menu html
+
+    <div class="sidebar">
+        <h1>Pomar Pró</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Pomares</a></li>
+            <li><a href="#">Pedidos</a></li>
+            <li><a href="#">Conta</a></li>
+            <li><a href="#">Ajuda</a></li>
+            <li><a href="#">Contatos</a></li>
+        </ul>
+        <img src="/assets/img/gaxo.png" >
+    </div>
+    <div class="content">
+        <!-- Conteúdo da página aqui -->
+    </div>
+
