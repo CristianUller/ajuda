@@ -1,0 +1,102 @@
+.full{
+    background-image: url(/assets/img/yggy.png);
+    background-size: cover;
+   background-repeat: no-repeat;
+}
+
+header{
+    background-color:rgba(26, 21, 16, 0.219) ;;
+    width: 30%; 
+    
+ 
+}
+
+header img{
+    height: 100%;
+    width: 100%;
+}
+
+form {
+    background-color:rgba(26, 21, 16, 0.219) ;
+    width: 30%;
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+    align-items:center;
+    justify-content: center;
+    color: black;
+}
+
+
+
+input{
+    margin: 2vw;
+    height: 3vw;
+    width: 20vw;
+    background-color:#CD853F ;
+    border-radius: 5px;
+    box-shadow:0 0 0.9em rgba(8, 8, 8, 0.72);
+    
+    
+}
+
+button{
+    margin-right: 17px;
+    height: 3vw;
+    width: 12vw;
+    background-color:#CD853F ;
+    border-radius: 5px;
+    box-shadow:0 0 0.1em rgba(8, 8, 8, 0.72);
+    
+}
+::placeholder{
+    color:rgb(0, 0, 0);
+    font-family: arial;
+}
+
+button:hover{
+    background-color:#363636;
+    
+   
+    transition-duration: 1s;
+    cursor: help;
+}
+
+footer{
+    
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color:rgba(26, 21, 16, 0.219) ;
+    margin: 0px;
+    height: 40%;
+  
+    
+}
+
+input:hover{
+    background-color:#363636 ;
+    color: white;
+    size-adjust: 2vw;
+    transition-duration: 1s;
+    cursor: help;
+    
+}
+
+footer p{
+    font-size: 2vw;
+    font-family: garandot;
+    color: #9b6025;
+    text-shadow:0 0 0.1em rgba(0, 0, 0, 0.72);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.erro{
+    text-shadow:0 0 0.1em rgba(0, 0, 0, 0.72);
+}
+
